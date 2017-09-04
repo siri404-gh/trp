@@ -1,0 +1,31 @@
+{
+  "name": "trp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sreerampr/trp.git",
+  "author": "Sreeram Padmanabhan <sreeram.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-native": "^3.0.2",
+    "body-parser": "^1.17.2",
+    "clean-webpack-plugin": "^0.1.16",
+    "express": "^4.15.4",
+    "html-webpack-plugin": "^2.30.1",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "3.0.0-beta.7",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-manifest-plugin": "^1.3.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "scripts": {
+    "prod:server": "node server/server",
+    "dev:server": "./node_modules/.bin/webpack-dev-server --env=dev --progress --profile --colors --open"
+  }
+}
